@@ -1,0 +1,322 @@
+{
+  "uuid": "046f37767a673f5cb7a66c42f53b5312",
+  "path": "Offline/Guindeau_control",
+  "name": "Guindeau_control",
+  "content": "",
+  "created_at": "2020-11-24 13:34:58",
+  "updated_at": "2020-12-30 15:43:31",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5a3dd62a21351a8f9d0873dfd712ce83",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3921eafbac0c3eb613e12fbf535fe715": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "85139413c861233fdf12490a286174dd": 2,
+        "0b833263bcfb409d8a029dcd9c6a3b59": 3,
+        "3f736d07efa549028b8d3b815ea73644": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "R",
+          8,
+          "R_AXIAL_DIN0204_L3.6MM_D1.6MM_P7.62MM_HORIZONTAL",
+          "R11,R1,R5,R2,R6,R7,R8,R9",
+          {
+            "puuid": "131b28a5df6849369a00a51c5def8354",
+            "uuid": ""
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CP_RADIAL_D5.0MM_P2.00MM",
+          "C6,C5",
+          {
+            "puuid": "9c134213c9ad4c2ea8212bc21d2c99a8",
+            "uuid": ""
+          }
+        ],
+        [
+          "Conn_01x03_Female",
+          1,
+          "JWT_A3963_1X03_P3.96MM_VERTICAL",
+          "J10",
+          {
+            "puuid": "406a6d0d406646bb8ecc2a09598d35b5",
+            "uuid": ""
+          }
+        ],
+        [
+          "DCDC_variable",
+          1,
+          "DCDC_VARIABLE",
+          "PS1",
+          {
+            "puuid": "0b59f1e254a8483fad4b5338ead246de",
+            "uuid": ""
+          }
+        ],
+        [
+          "I2C",
+          1,
+          "PINHEADER_1X04_P2.54MM_VERTICAL",
+          "J9",
+          {
+            "puuid": "765c1bb2e8274f7ca193bf1e9e208f17",
+            "uuid": ""
+          }
+        ],
+        [
+          "LED",
+          1,
+          "D_A-405_P2.54MM_VERTICAL_ANODEUP",
+          "D1",
+          {
+            "puuid": "de9f0f381f4e42fc8e2c9c00cf727824",
+            "uuid": ""
+          }
+        ],
+        [
+          "SPI",
+          1,
+          "PINHEADER_1X06_P2.54MM_VERTICAL",
+          "J4",
+          {
+            "puuid": "37650cfb71014f3a905f7d5888de5b0c",
+            "uuid": ""
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C_RADIAL_D5.0MM_H11.0MM_P2.00MM",
+          "C3",
+          {
+            "puuid": "d52ede03a6a347de8ae15c0cfdece47c",
+            "uuid": ""
+          }
+        ],
+        [
+          "SERIE",
+          1,
+          "PINHEADER_1X04_P2.54MM_VERTICAL",
+          "J3",
+          {
+            "puuid": "765c1bb2e8274f7ca193bf1e9e208f17",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R_AXIAL_DIN0204_L3.6MM_D1.6MM_P7.62MM_HORIZONTAL",
+          "R4",
+          {
+            "puuid": "131b28a5df6849369a00a51c5def8354",
+            "uuid": ""
+          }
+        ],
+        [
+          "ATmega328P-PU",
+          1,
+          "DIP-28_W7.62MM",
+          "U1",
+          {
+            "puuid": "e66adfe43c434c2fa35af8990d4f17e0",
+            "uuid": ""
+          }
+        ],
+        [
+          "C",
+          2,
+          "C_RADIAL_D5.0MM_H11.0MM_P2.00MM",
+          "C2,C1",
+          {
+            "puuid": "d52ede03a6a347de8ae15c0cfdece47c",
+            "uuid": ""
+          }
+        ],
+        [
+          "Crystal",
+          1,
+          "CRYSTAL_HC18-U_VERTICAL",
+          "Y1",
+          {
+            "puuid": "7c1cddc675fe43db9d78d43e997e3f02",
+            "uuid": ""
+          }
+        ],
+        [
+          "1K",
+          4,
+          "R_AXIAL_DIN0204_L3.6MM_D1.6MM_P7.62MM_HORIZONTAL",
+          "R14,R12,R13,R10",
+          {
+            "puuid": "131b28a5df6849369a00a51c5def8354",
+            "uuid": ""
+          }
+        ],
+        [
+          "SWITCH_RESET",
+          1,
+          "JWT_A3963_1X02_P3.96MM_VERTICAL",
+          "J5",
+          {
+            "puuid": "27ce67b2f7cf4ac4843e3c2f829f0781",
+            "uuid": ""
+          }
+        ],
+        [
+          "DIODE",
+          2,
+          "D_DO-41_SOD81_P7.62MM_HORIZONTAL",
+          "D5,D4",
+          {
+            "puuid": "60abbd5adcb34cb88ad51c8d223a20a6",
+            "uuid": ""
+          }
+        ],
+        [
+          "IO",
+          1,
+          "PINHEADER_1X06_P2.54MM_VERTICAL",
+          "J1",
+          {
+            "puuid": "37650cfb71014f3a905f7d5888de5b0c",
+            "uuid": ""
+          }
+        ],
+        [
+          "2N2222",
+          3,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q3,Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N2222",
+            "BOM_Supplier Part": "C118536",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "0b833263bcfb409d8a029dcd9c6a3b59"
+          }
+        ],
+        [
+          "DBT50B-9.5-8P",
+          1,
+          "CONN-TH_DBT50B-9.5-8P",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C729817",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DBT50B-9.5-8P",
+            "puuid": "48bc7274e3b146dea833d286ee1f0e65",
+            "uuid": "3f736d07efa549028b8d3b815ea73644"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "NRF24L01+功率加强版绑定2.4Gwireless module",
+            "BOM_Supplier Part": "C90751",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "L78L05ACZ",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L78L05ACZ",
+            "BOM_Supplier Part": "C57900",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "3921eafbac0c3eb613e12fbf535fe715"
+          }
+        ],
+        [
+          "SRU-12VDC-SL-C",
+          2,
+          "RELAY-TH_SRU-XX-X-C",
+          "K2,K1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SONGLE",
+            "BOM_Manufacturer Part": "SRU-12VDC-SL-C",
+            "BOM_Supplier Part": "C47402",
+            "puuid": "4a0b7ef5c2754850a9ed63e18122e228",
+            "uuid": "85139413c861233fdf12490a286174dd"
+          }
+        ]
+      ],
+      "updateTime": 1609361011,
+      "createTime": 1606242965,
+      "histories": [],
+      "created_at": "2020-11-24 13:36:05",
+      "updated_at": "2020-12-30 15:43:31"
+    },
+    {
+      "uuid": "d91143d621cc2c59ac213977219af16b",
+      "puuid": "046f37767a673f5cb7a66c42f53b5312",
+      "title": "PCB_2020-11-30_16-17-39",
+      "filename": "PCB_2020-11-30_16-17-39.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "37650cfb71014f3a905f7d5888de5b0c": 2,
+        "b4cb6e6f44a64822b1a75e418bd409f5": 1,
+        "131b28a5df6849369a00a51c5def8354": 13,
+        "9c134213c9ad4c2ea8212bc21d2c99a8": 2,
+        "406a6d0d406646bb8ecc2a09598d35b5": 1,
+        "0b59f1e254a8483fad4b5338ead246de": 1,
+        "765c1bb2e8274f7ca193bf1e9e208f17": 2,
+        "de9f0f381f4e42fc8e2c9c00cf727824": 1,
+        "e66adfe43c434c2fa35af8990d4f17e0": 1,
+        "d52ede03a6a347de8ae15c0cfdece47c": 3,
+        "7c1cddc675fe43db9d78d43e997e3f02": 1,
+        "6924b36489de4921bb29ca14bf27c33f": 4,
+        "60abbd5adcb34cb88ad51c8d223a20a6": 2,
+        "4a0b7ef5c2754850a9ed63e18122e228": 2,
+        "27ce67b2f7cf4ac4843e3c2f829f0781": 1
+      },
+      "BOM": [],
+      "updateTime": 1607444100,
+      "createTime": 1606771059,
+      "histories": [],
+      "created_at": "2020-11-30 16:17:39",
+      "updated_at": "2020-12-08 11:15:00"
+    }
+  ],
+  "sort": [
+    "5a3dd62a21351a8f9d0873dfd712ce83",
+    "4881ac57f33ac11a04cfc0236fd394ab",
+    "fe2cf9cc53df5be9b98823f59b4d6e5c"
+  ],
+  "title": "Guindeau_control",
+  "foldername": "Guindeau_control",
+  "schfilename": "Guindeau_control.json",
+  "schfilemtime": 1609361011358
+}

@@ -1,0 +1,206 @@
+{
+  "uuid": "ee05769386d9bf52f75db04d5a145060",
+  "path": "Offline/Guindeau_remote",
+  "name": "Guindeau_remote",
+  "content": "",
+  "created_at": "2020-12-04 11:16:38",
+  "updated_at": "2020-12-23 11:22:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b6713b751adb9fc78fdc4348150b0549",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3921eafbac0c3eb613e12fbf535fe715": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "4736e0133191414fb5213f17ce675391": 1,
+        "7363c73bb7e140bc93d9d99cfd61fd8f": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Crystal",
+          1,
+          "CRYSTAL_HC18-U_VERTICAL",
+          "Y1",
+          {
+            "puuid": "7c1cddc675fe43db9d78d43e997e3f02",
+            "uuid": ""
+          }
+        ],
+        [
+          "CP",
+          2,
+          "CP_RADIAL_D5.0MM_P2.00MM",
+          "C6,C5",
+          {
+            "puuid": "9c134213c9ad4c2ea8212bc21d2c99a8",
+            "uuid": ""
+          }
+        ],
+        [
+          "I2C",
+          1,
+          "PINHEADER_1X04_P2.54MM_VERTICAL",
+          "J9",
+          {
+            "puuid": "765c1bb2e8274f7ca193bf1e9e208f17",
+            "uuid": ""
+          }
+        ],
+        [
+          "SPI",
+          1,
+          "PINHEADER_1X06_P2.54MM_VERTICAL",
+          "J4",
+          {
+            "puuid": "37650cfb71014f3a905f7d5888de5b0c",
+            "uuid": ""
+          }
+        ],
+        [
+          "C",
+          3,
+          "C_RADIAL_D5.0MM_H11.0MM_P2.00MM",
+          "C3,C2,C1",
+          {
+            "puuid": "d52ede03a6a347de8ae15c0cfdece47c",
+            "uuid": ""
+          }
+        ],
+        [
+          "SERIE",
+          1,
+          "PINHEADER_1X04_P2.54MM_VERTICAL",
+          "J3",
+          {
+            "puuid": "765c1bb2e8274f7ca193bf1e9e208f17",
+            "uuid": ""
+          }
+        ],
+        [
+          "R",
+          3,
+          "R_AXIAL_DIN0204_L3.6MM_D1.6MM_P7.62MM_HORIZONTAL",
+          "R4,R1,R2",
+          {
+            "puuid": "131b28a5df6849369a00a51c5def8354",
+            "uuid": ""
+          }
+        ],
+        [
+          "ATmega328P-PU",
+          1,
+          "DIP-28_W7.62MM",
+          "U1",
+          {
+            "puuid": "e66adfe43c434c2fa35af8990d4f17e0",
+            "uuid": ""
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "NRF24L01+功率加强版绑定2.4Gwireless module",
+            "BOM_Supplier Part": "C90751",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "L78L05ACZ",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L78L05ACZ",
+            "BOM_Supplier Part": "C57900",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "3921eafbac0c3eb613e12fbf535fe715"
+          }
+        ],
+        [
+          "NokiaLCD",
+          1,
+          "NOKIA 5110 LCD MODULE (RED PCB)",
+          "LCD1",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "puuid": "8df9f0cf038c4890a507fb8d45ad6411",
+            "uuid": "4736e0133191414fb5213f17ce675391"
+          }
+        ],
+        [
+          "Connector_Conn_01x02_Female",
+          4,
+          "PINHEADER_1X02_P2.54MM_VERTICAL",
+          "J1,J2,J5,J6",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "773f97f6fc5a4c84b42661f497a1aaa0",
+            "uuid": "7363c73bb7e140bc93d9d99cfd61fd8f"
+          }
+        ]
+      ],
+      "updateTime": 1608739047,
+      "createTime": 1607098676,
+      "histories": [],
+      "created_at": "2020-12-04 11:17:56",
+      "updated_at": "2020-12-23 10:57:27"
+    },
+    {
+      "uuid": "9517c8b4d20ad17372dfb4ba3fb0e3b7",
+      "puuid": "ee05769386d9bf52f75db04d5a145060",
+      "title": "PCB_2020-12-04_13-52-41",
+      "filename": "PCB_2020-12-04_13-52-41.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "773f97f6fc5a4c84b42661f497a1aaa0": 4,
+        "131b28a5df6849369a00a51c5def8354": 3,
+        "9c134213c9ad4c2ea8212bc21d2c99a8": 2,
+        "765c1bb2e8274f7ca193bf1e9e208f17": 2,
+        "37650cfb71014f3a905f7d5888de5b0c": 1,
+        "d52ede03a6a347de8ae15c0cfdece47c": 3,
+        "e66adfe43c434c2fa35af8990d4f17e0": 1,
+        "7c1cddc675fe43db9d78d43e997e3f02": 1,
+        "6924b36489de4921bb29ca14bf27c33f": 1
+      },
+      "BOM": [],
+      "updateTime": 1608740563,
+      "createTime": 1607107961,
+      "histories": [],
+      "created_at": "2020-12-04 13:52:41",
+      "updated_at": "2020-12-23 11:22:43"
+    }
+  ],
+  "sort": [
+    "b6713b751adb9fc78fdc4348150b0549"
+  ],
+  "title": "Guindeau_remote",
+  "foldername": "Guindeau_remote",
+  "schfilename": "Guindeau_remote.json",
+  "schfilemtime": 1608739047665
+}
